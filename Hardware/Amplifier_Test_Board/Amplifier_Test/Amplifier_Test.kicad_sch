@@ -1,0 +1,77 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 66093f3b-a98f-4191-a1da-07ad8e5e4985)
+
+  (paper "A4")
+
+  (title_block
+    (title "GRF5504 AMPLIFIER TEST BOARD")
+    (date "2024-10-15")
+    (rev "A")
+    (company "AMSAT US")
+    (comment 1 "CAMERON CASTILLO")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 179.07 68.58) (size 53.34 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 06b0a9dc-ebb3-45f6-8eff-8282dab13be0)
+    (property "Sheetname" "Linear PA" (at 179.07 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Linear_PA.kicad_sch" (at 179.07 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Amplifier_Test"
+        (path "/66093f3b-a98f-4191-a1da-07ad8e5e4985" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 27.94) (size 74.93 57.15) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4b6526f8-183a-401e-b7b4-54c2011d2574)
+    (property "Sheetname" "Power Supply" (at 34.29 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PowerSupply.kicad_sch" (at 34.29 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Amplifier_Test"
+        (path "/66093f3b-a98f-4191-a1da-07ad8e5e4985" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 130.81) (size 53.34 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 84c73318-7e64-481c-9781-12249abb9bf4)
+    (property "Sheetname" "GRF5504_AMP" (at 34.29 130.0984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "GRF5504_AMP.kicad_sch" (at 34.29 172.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "+5V" input (at 87.63 138.43 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid e494b92c-0f03-4280-bb29-59badb834455)
+    )
+    (instances
+      (project "Amplifier_Test"
+        (path "/66093f3b-a98f-4191-a1da-07ad8e5e4985" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

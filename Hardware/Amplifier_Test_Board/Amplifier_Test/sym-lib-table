@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "guerrilla_RF")(type "KiCad")(uri "${KIPRJMOD}/guerrilla_RF.kicad_sym")(options "")(descr ""))
+)

@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 1.075
+          "height": 0.75,
+          "width": 0.75
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -575,7 +575,23 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "/Rx_Power_Divider/Port1_N": "rgb(114, 255, 255)",
+      "/Rx_Power_Divider/Port1_P": "rgb(100, 253, 255)",
+      "/Rx_Power_Divider/Port2_N": "rgb(98, 251, 255)",
+      "/Rx_Power_Divider/Port2_P": "rgb(125, 255, 253)",
+      "/Rx_Power_Divider/Port3_N": "rgb(121, 251, 255)",
+      "/Rx_Power_Divider/Port3_P": "rgb(123, 249, 255)",
+      "/Rx_Power_Divider/Port4_N": "rgb(125, 253, 255)",
+      "/Rx_Power_Divider/Port4_P": "rgb(119, 242, 255)",
+      "/Rx_Power_Divider/S+": "rgb(93, 244, 255)",
+      "/Rx_Power_Divider/S-": "rgb(86, 253, 255)",
+      "Net-(P601-In)": "rgb(84, 251, 255)",
+      "Net-(P610-In)": "rgb(90, 251, 255)",
+      "Net-(Q601-D)": "rgb(104, 255, 251)",
+      "Net-(Q601-G)": "rgb(94, 255, 249)",
+      "Net-(T601-AA)": "rgb(92, 255, 249)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
